@@ -10,14 +10,14 @@ export default function About() {
           <div className="relative flex-1">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="/images/dra-maisa-about.jpeg"
+                src="https://www.dentistanocentro.com.br/wp-content/uploads/2023/01/Dentista-Maisa-2.jpeg"
                 alt="Dra. Maísa Rossetto em seu consultório"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 90vw, 40vw"
               />
             </div>
-            <div className="absolute -bottom-3 -right-3 rounded-xl bg-gold px-5 py-3 text-center shadow-lg">
+            <div className="absolute -bottom-3 -right-3 hidden rounded-xl bg-gold px-5 py-3 text-center shadow-lg md:block">
               <span className="block font-serif text-2xl font-bold text-white">
                 +20
               </span>
@@ -41,29 +41,34 @@ export default function About() {
 
             <div className="mt-6 space-y-4 text-base leading-relaxed text-warm-gray">
               <p>
-                Sou dentista há mais de 20 anos, especialista em endodontia, pós-graduada
-                em Psicologia Positiva pela PUC Paraná e voltada para pacientes com fobia
-                e ansiedade. Monitora em Odontologia Integrativa e Urgência Odontológica
-                pela Plenitude Educação.
+                Sou apaixonada por transformar vidas e me envolver com a história de
+                cada paciente. Me formei pela UNIP em 2006 e me pós-graduei em 2008 em
+                endodontia (tratamento de canal). Desde sempre, direcionei minha
+                formação acadêmica a tornar cada sorriso transformado na sua melhor
+                versão.
               </p>
               <p>
-                No meu consultório aqui no centro de São Paulo, desde 2004, faço
-                atendimentos utilizando as melhores técnicas e os mais avançados
-                equipamentos da Odontologia Digital, como Invisalign, aparelhos
-                autoligados, transparentes e confecção rápida de dentes.
+                Especialista em endodontia, pós-graduada em Psicologia Positiva pela PUC
+                Paraná e voltada para pacientes com fobia e ansiedade. Monitora em
+                Odontologia Integrativa e Urgência Odontológica pela Plenitude Educação.
               </p>
               <p>
-                Meu compromisso é oferecer um atendimento acolhedor e humanizado, onde
-                cada paciente se sinta seguro e cuidado do início ao fim do tratamento.
+                No meu consultório aqui no centro de São Paulo, desde 2004, utilizo as
+                melhores técnicas e os mais avançados equipamentos da Odontologia
+                Digital — Invisalign, aparelhos autoligados, transparentes e confecção
+                rápida de dentes. Me emociono com cada caso que finalizo e vibro junto
+                com meus pacientes quando vemos o resultado almejado.
               </p>
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { label: "Endodontia", desc: "Especialista" },
-                { label: "Odontologia Digital", desc: "Tecnologia avançada" },
+                { label: "Endodontia", desc: "Especialista desde 2008" },
+                { label: "Odontologia Digital", desc: "Invisalign e tecnologia" },
                 { label: "Psicologia Positiva", desc: "PUC Paraná" },
                 { label: "Atendimento Humanizado", desc: "Fobia e ansiedade" },
+                { label: "Formação UNIP", desc: "Graduação em 2006" },
+                { label: "Educação Continuada", desc: "Plenitude Educação" },
               ].map((item) => (
                 <div key={item.label} className="rounded-xl bg-cream p-4">
                   <span className="text-sm font-semibold text-charcoal">

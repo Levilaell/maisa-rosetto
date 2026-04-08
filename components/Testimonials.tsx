@@ -3,16 +3,22 @@ const testimonials = [
     name: "Clodomiro de Toledo V. Júnior",
     text: "Vim pra fazer um trabalho de clareamento e outros serviços que eu precisava. Ela me indicou as facetas, gostei bastante do resultado. SUPER recomendo.",
     service: "Clareamento e Facetas",
+    video:
+      "https://www.dentistanocentro.com.br/wp-content/uploads/2023/01/video-depoimento.mp4",
   },
   {
     name: "Flávia",
     text: "O tratamento é excepcional. Parece um encontro entre amigas, que você sempre sai melhor. Moro em Paris e sempre que passo pelo Brasil, passo aqui na Dra. Maísa. Realmente é uma profissional excepcional.",
     service: "Estética e Botox",
+    video:
+      "https://www.dentistanocentro.com.br/wp-content/uploads/2023/01/Video-depoimento-2.mp4",
   },
   {
     name: "Soraia",
     text: "Eu e a minha família, a gente não abre mão de ser tratada aqui pela Dra. Maísa. Vim fazer uma limpeza e acabei fazendo um tratamento super completo. Minha irmã e minha irmã mais nova também fazem tratamento com ela.",
     service: "Tratamento Completo",
+    video:
+      "https://www.dentistanocentro.com.br/wp-content/uploads/2023/01/soraia_depoimento.mp4",
   },
 ];
 
@@ -38,6 +44,19 @@ export default function Testimonials() {
               key={t.name}
               className="relative flex flex-col rounded-2xl border border-charcoal/5 bg-cream p-7"
             >
+              {/* Video */}
+              <div className="mb-5">
+                <video
+                  controls
+                  preload="none"
+                  className="aspect-[9/16] w-full rounded-xl bg-charcoal/5 object-cover"
+                  aria-label={`Depoimento de ${t.name}`}
+                >
+                  <source src={t.video} type="video/mp4" />
+                  Seu navegador não suporta vídeos.
+                </video>
+              </div>
+
               {/* Quote icon */}
               <svg
                 className="mb-4 h-8 w-8 text-gold/30"

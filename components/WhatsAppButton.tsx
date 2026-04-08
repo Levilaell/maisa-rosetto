@@ -18,14 +18,17 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Agendar consulta pelo WhatsApp"
-      className={`fixed right-5 bottom-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20 transition-all duration-300 hover:scale-110 hover:shadow-xl md:h-16 md:w-16 ${
+      className={`fixed right-5 bottom-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20 transition-all duration-300 hover:scale-110 hover:shadow-xl md:right-6 md:bottom-6 md:h-16 md:w-16 ${
         visible
           ? "translate-y-0 opacity-100"
           : "translate-y-4 opacity-0 pointer-events-none"
       }`}
     >
+      {/* Pulse ring */}
+      <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366] opacity-20" />
+      <span className="absolute inset-0 animate-pulse rounded-full bg-[#25D366] opacity-10" />
       <svg
-        className="h-7 w-7 md:h-8 md:w-8"
+        className="relative h-7 w-7 md:h-8 md:w-8"
         fill="currentColor"
         viewBox="0 0 24 24"
         aria-hidden="true"

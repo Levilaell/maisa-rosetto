@@ -53,24 +53,24 @@ export default function Location() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0 flex-1">
                   <h3 className="text-base font-semibold text-charcoal">
                     Horário de Atendimento
                   </h3>
                   <div className="mt-2 space-y-1.5">
-                    <div className="flex justify-between text-sm">
+                    <div className="flex items-center justify-between gap-4 text-sm">
                       <span className="text-warm-gray">Segunda a Sexta</span>
                       <span className="font-medium text-charcoal">
                         08:00 — 20:00
                       </span>
                     </div>
-                    <div className="flex justify-between text-sm">
+                    <div className="flex items-center justify-between gap-4 text-sm">
                       <span className="text-warm-gray">Sábado</span>
                       <span className="font-medium text-charcoal">
                         11:00 — 16:00
                       </span>
                     </div>
-                    <div className="flex justify-between text-sm">
+                    <div className="flex items-center justify-between gap-4 text-sm">
                       <span className="text-warm-gray">Domingo</span>
                       <span className="text-warm-gray">Fechado</span>
                     </div>
@@ -133,10 +133,10 @@ export default function Location() {
           {/* Map */}
           <div className="overflow-hidden rounded-2xl shadow-sm">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975826946097!2d-46.6423!3d-23.5436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce584e8e94cdeb%3A0xf0f0f0f0f0f0f0f0!2sR.%20Nova%20Bar%C3%A3o%2C%2037%20-%20Rep%C3%BAblica%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001042-001!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              src="https://maps.google.com/maps?q=Rua+Nova+Bar%C3%A3o+37+sala+409+Rep%C3%BAblica+S%C3%A3o+Paulo&output=embed"
               width="100%"
               height="100%"
-              className="min-h-[400px] border-0 lg:min-h-full"
+              className="min-h-[300px] border-0 lg:min-h-full"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

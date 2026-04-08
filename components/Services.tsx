@@ -2,7 +2,7 @@ const services = [
   {
     title: "Estética Dental",
     description:
-      "Facetas de porcelana, lentes de contato dentais e clareamento para um sorriso perfeito.",
+      "Facetas em resina, lentes de contato dental em porcelana, clareamento e restaurações estéticas. Harmonize a estética entre dente e gengiva e transforme seu sorriso.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
@@ -13,7 +13,7 @@ const services = [
   {
     title: "Ortodontia",
     description:
-      "Invisalign, aparelhos metálicos, autoligados e transparentes. Diagnóstico e tratamento completo.",
+      "Invisalign, aparelhos metálicos, autoligados e transparentes. Tratamento para crianças a partir dos 4 anos e adultos, com duração média de 18 a 36 meses.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
@@ -24,10 +24,10 @@ const services = [
   {
     title: "Implantes Dentários",
     description:
-      "Reposição rápida de dentes perdidos com implantes modernos. Evite problemas estéticos e de mordida.",
+      "Implantes de titânio inseridos cirurgicamente com osseointegração em ~4 meses. Procedimento mais simples que uma extração, com próteses fixas sobre implante.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1m0 0L11.42 5.07m-5.1 5.1H21M3 3v18" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
       </svg>
     ),
     highlight: true,
@@ -35,7 +35,7 @@ const services = [
   {
     title: "Harmonização Facial",
     description:
-      "Botox, preenchimento, lifting facial, correção de sorriso gengival e bichectomia.",
+      "Botox, preenchimento labial e facial, lifting facial, correção de sorriso gengival, cicatrizes e bichectomia. Rejuvenescimento com resultados naturais.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -46,7 +46,7 @@ const services = [
   {
     title: "Clareamento a Laser",
     description:
-      "Clareamento profissional para dentes escurecidos com resultados rápidos e duradouros.",
+      "O agente clareador penetra no esmalte e na dentina, liberando oxigênio que quebra os pigmentos causadores de manchas. Resultados rápidos e duradouros.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
@@ -57,7 +57,7 @@ const services = [
   {
     title: "Endodontia",
     description:
-      "Tratamento de canal com técnicas avançadas. Especialidade da Dra. Maísa.",
+      "Tratamento de canal: especialidade da Dra. Maísa desde 2008. Elimina tecido inflamado e veda a raiz. Normalmente em 2 sessões, podendo ser feito em apenas 1.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -68,7 +68,7 @@ const services = [
   {
     title: "Prótese Dentária",
     description:
-      "Próteses fixas e removíveis de alta qualidade para recuperar a função e estética.",
+      "Próteses fixas (coroa, ponte), removíveis, flexíveis em silicone e totais. Reestabeleça a mastigação e estética com dentes artificiais de alta qualidade.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
@@ -79,7 +79,7 @@ const services = [
   {
     title: "Clínica Geral",
     description:
-      "Check-up odontológico, limpezas, restaurações e cuidados preventivos.",
+      "Check-up odontológico completo, limpeza, raspagem, restaurações e cuidados preventivos. Radiografia panorâmica e tomografia computadorizada.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
@@ -90,7 +90,7 @@ const services = [
   {
     title: "Odontopediatria",
     description:
-      "Acompanhamento especializado para crianças e gestantes em ambiente acolhedor.",
+      "Acompanhamento especializado para crianças e gestantes. Primeira avaliação ortodôntica recomendada a partir dos 4 anos, prevenindo problemas futuros.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
@@ -101,7 +101,7 @@ const services = [
   {
     title: "Periodontia",
     description:
-      "Tratamento da gengiva para saúde bucal completa e prevenção de doenças.",
+      "Tratamento da gengiva para saúde bucal completa. Prevenção e tratamento de doenças periodontais que podem causar mobilidade e perda de dentes.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
@@ -112,7 +112,7 @@ const services = [
   {
     title: "Cirurgia Oral",
     description:
-      "Extração de molar incluso e procedimentos cirúrgicos com segurança.",
+      "Extração de molar incluso e procedimentos cirúrgicos com segurança e conforto. Técnicas modernas para recuperação rápida.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1m0 0L11.42 5.07m-5.1 5.1H21M3 3v18" />
@@ -123,7 +123,7 @@ const services = [
   {
     title: "Bruxismo",
     description:
-      "Diagnóstico e tratamento do bruxismo com placas e acompanhamento personalizado.",
+      "Diagnóstico e tratamento do bruxismo com placas oclusais e acompanhamento personalizado. Proteção dos dentes contra desgaste.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -149,6 +149,16 @@ export default function Services() {
             odontologia digital à harmonização facial. Cada tratamento é
             personalizado para suas necessidades.
           </p>
+        </div>
+
+        {/* Partnership Badge */}
+        <div className="mx-auto mt-10 flex max-w-xl items-center gap-3 rounded-full border border-gold/20 bg-white px-6 py-3 shadow-sm">
+          <svg className="h-5 w-5 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+          </svg>
+          <span className="text-sm font-medium text-charcoal">
+            Parceria especial para funcionários da Prefeitura de SP e professores
+          </span>
         </div>
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -185,13 +195,26 @@ export default function Services() {
           ))}
         </div>
 
+        {/* Promo Banner */}
+        <div className="mx-auto mt-10 flex max-w-2xl items-center gap-3 rounded-2xl border border-teal/20 bg-teal/5 px-7 py-5">
+          <svg className="h-6 w-6 shrink-0 text-teal-dark" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+          </svg>
+          <div>
+            <span className="text-sm font-semibold text-charcoal">Promoção:</span>{" "}
+            <span className="text-sm text-warm-gray">
+              Faça limpeza e raspagem e ganhe desconto no clareamento a laser!
+            </span>
+          </div>
+        </div>
+
         {/* Emergency Banner */}
-        <div className="mt-14 overflow-hidden rounded-2xl bg-charcoal p-8 text-center md:p-10">
+        <div className="mt-10 overflow-hidden rounded-2xl bg-charcoal p-8 text-center md:p-10">
           <h3 className="font-serif text-2xl font-bold text-white sm:text-3xl">
             Atendimento de Urgência
           </h3>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-warm-gray-light">
-            Dor de dente, fratura dental, prótese quebrada ou solta, abscesso?
+            Dor de dente, fratura dental, trauma, prótese quebrada ou solta, abscesso?
             Não espere! Entre em contato imediatamente para atendimento emergencial.
           </p>
           <a

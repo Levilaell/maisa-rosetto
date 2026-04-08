@@ -19,23 +19,13 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Dra. Maísa Rossetto | Dentista no Centro de São Paulo",
   description:
-    "Clínica odontológica no Centro de SP. Especialista em endodontia, estética dental, implantes, ortodontia e harmonização facial. Mais de 20 anos de experiência. Próximo ao metrô República e Anhangabaú.",
-  keywords: [
-    "dentista centro SP",
-    "dentista centro São Paulo",
-    "clínica odontológica centro SP",
-    "implante dentário centro SP",
-    "ortodontia centro SP",
-    "clareamento dental",
-    "Dra Maísa Rossetto",
-    "invisalign SP",
-    "harmonização facial",
-  ],
+    "Clínica odontológica no Centro de SP. Especialista em endodontia, estética, implantes e ortodontia. Mais de 20 anos de experiência. Próximo ao Metrô República.",
+  keywords:
+    "dentista centro SP, clínica odontológica centro São Paulo, implante dentário centro SP, ortodontia centro SP",
   authors: [{ name: "Dra. Maísa Rossetto" }],
   openGraph: {
     title: "Dra. Maísa Rossetto | Dentista no Centro de São Paulo",
-    description:
-      "Clínica odontológica premium no Centro de SP. Mais de 20 anos de experiência. Especialista em estética, implantes e ortodontia.",
+    description: "Clínica odontológica premium no Centro de SP.",
     url: "https://www.dentistanocentro.com.br",
     siteName: "Consultório Dra. Maísa Rossetto",
     locale: "pt_BR",
@@ -45,6 +35,29 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "https://www.dentistanocentro.com.br/wp-content/uploads/2023/01/Logo-Dentista-no-centro-de-SP-logo.jpg",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  name: "Dra. Maísa Rossetto — Dentista no Centro de SP",
+  url: "https://www.dentistanocentro.com.br",
+  telephone: "+551131299822",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Rua Nova Barão, 37, Sala 409",
+    addressLocality: "São Paulo",
+    addressRegion: "SP",
+    postalCode: "01042-001",
+    addressCountry: "BR",
+  },
+  openingHours: ["Mo-Fr 08:00-20:00", "Sa 11:00-16:00"],
+  priceRange: "$$",
+  image:
+    "https://www.dentistanocentro.com.br/wp-content/uploads/2023/01/Dentista-Maisa-4.jpeg",
 };
 
 export default function RootLayout({
@@ -53,10 +66,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="pt-BR"
-      className={`${cormorant.variable} ${dmSans.variable}`}
-    >
+    <html lang="pt-BR" className={`${cormorant.variable} ${dmSans.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
